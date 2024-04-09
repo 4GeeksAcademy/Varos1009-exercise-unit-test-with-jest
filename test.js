@@ -33,7 +33,7 @@ test("One yen should be euros/156.5", function() {
     // const expected = 3 * 1.07 / 156.5; 
     
     // This is the comparison for the unit test
-     expect(yen).toBe(0.0205111821); 
+     expect(yen).toBe(0.020511182108626198); 
 });
 test("One pound should be euros/0.87", function() {
     // Import the function from app.js
@@ -46,5 +46,5 @@ test("One pound should be euros/0.87", function() {
   //  const expected = 2 * 0.87/ 156.5 ;
     
     // This is the comparison for the unit test
-     expect(pound).toBe(0.0111182109); 
+     expect(pound).toBe(0.011118210862619809); 
 })
